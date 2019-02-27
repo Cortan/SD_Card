@@ -41,8 +41,6 @@ void loop()
 
   ln = log(RT / RT0);
   TX = (1 / ((ln / B) + (1 / T0)));  //Temperature of termistor (K)
-
-  teplota = (TX - 273.15);                  //Temperature conversion to °C
     
     dataString += String(teplota);
     if (analogPin > 1) {
