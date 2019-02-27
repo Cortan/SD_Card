@@ -3,7 +3,7 @@
 
 #define RT0 10000   //Resistance of resistor
 #define B 3977      //Beta factor 
-#define VCC 3.30    //Power supply U= 3.3V
+#define VCC 5.0    //Power supply U = 5.0V
 #define R 10000     //Resistance of the resistor used: R=10 KΩ
 
 float RT, VR, ln, TX, T0, VRT, teplota;
